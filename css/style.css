@@ -225,11 +225,11 @@ img.banner_atributos {
 }
 
 h1,h2{
-  font-size: 9rem;
+  font-size: 4.5rem;
 }
 
 h3,h4,h5{
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: "Taviraj";
   font-weight: 300;
 }
@@ -254,7 +254,7 @@ ul.atributos-list > li
 ul.atributos-list > li{
   font-family: "Taviraj";
   color: #262626;
-  font-size: 2.8rem;
+  font-size: 1.9rem;
 }
 
 ul.atributos-list > li:nth-child(1){ background: url("../images/ico_1.png") no-repeat 7px 7px transparent; }
