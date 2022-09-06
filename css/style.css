@@ -352,3 +352,21 @@ footer button {
   z-index: 999999;
   position: absolute;
 }
+
+.img-header{
+  width: 100%;
+  text-align: center;
+}
+
+img.header-top{
+  padding-top: 100px;
+  width: 80%;
+}
+
+p.intro-header{
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 3rem;
+  font-weight: 300;
+}
