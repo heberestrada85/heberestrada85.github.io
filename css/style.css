@@ -432,6 +432,10 @@ p.intro-header{
   footer button {
     font-size: .8rem;
   }
+  p.copy {
+    font-size: .8rem;
+    padding: 2rem;
+  }
 }
  
 /* -------------------------------------------------------------------------
