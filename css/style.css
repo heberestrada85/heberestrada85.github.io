@@ -80,7 +80,7 @@ header .navbar-brand.absolute {
   position: absolute;
 }
 
-@media (max-width: 991.98px) {
+@media (min-width: 991.98px) {
   header .navbar-brand.absolute {
     position: relative;
   }
@@ -120,7 +120,7 @@ header .navbar .nav-link {
   margin: 0px 30px;
 }
 
-@media (max-width: 1199.98px) {
+@media (min-width: 1199.98px) {
   header .navbar .nav-link {
     padding: .5rem 0rem;
   }
@@ -153,7 +153,7 @@ header .navbar .dropdown-menu:before {
   border-width: 7px;
 }
 
-@media (max-width: 991.98px) {
+@media (min-width: 991.98px) {
   header .navbar .dropdown-menu:before {
     display: none;
   }
@@ -375,7 +375,7 @@ p.intro-header{
 /* -------------------------------------------------------------------------
   Móviles en horizontal o tablets en vertical
 ------------------------------------------------------------------------- */
-@media (max-width: 480px) { 
+@media (min-width: 480px) and (max-width: 599px){ 
   img.header-top {
     padding-top: 50px;
     width: 100%;
@@ -440,7 +440,7 @@ p.intro-header{
 /* -------------------------------------------------------------------------
   Móviles en horizontal o tablets en vertical
 ------------------------------------------------------------------------- */
-@media (max-width: 768px) { 
+@media (min-width: 600px) and (max-width: 799px) { 
   img.header-top {
     padding-top: 50px;
     width: 100%;
@@ -502,10 +502,72 @@ p.intro-header{
 /* -------------------------------------------------------------------------
   Tablets en horizonal y escritorios normales
 ------------------------------------------------------------------------- */
-@media (min-width: 1024px) {
+@media (min-width: 800px) and (max-width: 1023px) {
+  img.header-top {
+    padding-top: 50px;
+    width: 100%;
+  }
+  header {
+    padding: 0px 0;
+  }
+  header .navbar .nav-link {
+    color: white !important;
+  }
+  .principal {
+    height: 255vh;
+  }
+  p.intro-header {
+    font-size: 1.8rem;
+  }
+  .ingredientes-parrafo > p {
+    font-size: 1.2rem;
+    padding: 5% 5%;
+  }
+  .titulo {
+    padding: 2rem 0rem 0rem 0rem;
+  }
+  .col-md-12.titulo.ingrediente-titulo{
+    padding: 2rem 0rem 0rem 0rem;
+  }
+  .col-md-12.titulo {
+    padding: 2rem 0rem 0rem 3rem;
+  }
+  h1, h2 {
+    font-size: 3.5rem;
+  }
+  h3, h4, h5 {
+    font-size: 1.5rem;
+  }
+  ul.atributos-list > li {
+    font-size: 1.2rem;
+    background-size: 50px !important;
+    padding: 32px 0px 0px 70px;
+  }
+  .footer-titulo {
+    padding: 1rem 4rem 0rem 4rem;
+  }
+  img.redes{
+    width: 200px;
+  }
+  ::placeholder {
+    font-size: .8rem;
+  }
+  footer button {
+    font-size: .8rem;
+  }
+  p.copy {
+    font-size: .8rem;
+    padding: 2rem;
+  }
+}
+
+ /* -------------------------------------------------------------------------
+  Tablets en horizonal y escritorios normales
+------------------------------------------------------------------------- */
+@media (min-width: 1024px) and (max-width: 1199px) {
   
 }
- 
+
 /* -------------------------------------------------------------------------
   Escritorios muy anchos
 ------------------------------------------------------------------------- */
