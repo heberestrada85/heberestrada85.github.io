@@ -376,6 +376,15 @@ p.intro-header{
   Móviles en horizontal o tablets en vertical
 ------------------------------------------------------------------------- */
 @media (min-width: 320px) and (max-width: 599px){ 
+  .bg-dark {
+    background-color: #FFF !important;
+  }
+  header .navbar {
+    background: #FFF !important;
+  }
+  .navbar-dark .navbar-toggler-icon {
+    filter: brightness(0);
+  }
   img.header-top {
     padding-top: 50px;
     width: 100%;
@@ -383,9 +392,7 @@ p.intro-header{
   header {
     padding: 0px 0;
   }
-  header .navbar .nav-link {
-    color: white !important;
-  }
+  
   .principal {
     height: 85vh;
   }
@@ -441,6 +448,15 @@ p.intro-header{
   Móviles en horizontal o tablets en vertical
 ------------------------------------------------------------------------- */
 @media (min-width: 600px) and (max-width: 799px) { 
+  .bg-dark {
+    background-color: #FFF !important;
+  }
+  header .navbar {
+    background: #FFF !important;
+  }
+  .navbar-dark .navbar-toggler-icon {
+    filter: brightness(0);
+  }
   img.header-top {
     padding-top: 50px;
     width: 100%;
@@ -448,9 +464,7 @@ p.intro-header{
   header {
     padding: 0px 0;
   }
-  header .navbar .nav-link {
-    color: white !important;
-  }
+  
   .principal {
     height: 255vh;
   }
